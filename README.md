@@ -1,21 +1,21 @@
 ## 📚 Contents
 
-- [Overview](##overview)
-- [What It Does](#What It Does)
-- [Architecture](#architecture)
-- [How It Works](#how-it-works)
-- [Demo](#demo)
-- [Tech Stack](#tech-stack)
-- [Deployment](#deployment)
-- [Setup Instructions](#setup-instructions)
-- [Using the Streamlit Dashboard](#using-the-streamlit-dashboard)
-- [AWS Lambda Function](#aws-lambda-function)
-- [API Gateway Endpoint](#api-gateway-endpoint)
-- [DynamoDB Schema](#dynamodb-schema)
-- [S3 Folder Structure](#s3-folder-structure)
-- [Security Notes](#security-notes)
-- [Limitations and Future Work](#limitations-and-future-work)
-- [License](#license)
+
+- [🔍 Overview](#-overview)
+- [💡 What It Does](#-what-it-does)
+- [🏗️ Architecture](#architecture)
+- [🧠 Deepfake Detection Flow](#-deepfake-detection-flow)
+- [🛠️ Technologies Used](#technologies-used)
+- [🧬 Lambda Function](#lambda-function)
+- [📊 Streamlit Dashboard](#streamlit-dashboard)
+- [🔐 IAM & Permissions](#iam--permissions)
+- [📁 Project Structure](#project-structure)
+- [🧪 Example Input & Output](#example-input--output)
+- [🌍 How This Solves a Real-World Problem](#how-this-solves-a-real-world-problem)
+- [📦 Submission Requirements](#submission-requirements)
+- [💻 How to Run Locally](#how-to-run-locally)
+- [🚀 Future Improvements](#future-improvements)
+
 
 
 🚀 **Overview**
@@ -288,7 +288,6 @@ The following AWS IAM permissions are required:
   "model_version": "v1"
 }
 ```
-
 
 ## ✅ **How This Solves a Real-World Problem**
 
