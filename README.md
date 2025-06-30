@@ -2,7 +2,7 @@
 
 
 - [🔍 Overview](#-overview)
-    * [App link](#try-it-out--aws-deepfake-detector)
+    * [Try out the app](#try-it-out--aws-deepfake-detector)
     * [Demo Video](#demo-video)
 - [💡 What It Does](#-what-it-does)
 - [🏗️ Architecture](#-architecture)
