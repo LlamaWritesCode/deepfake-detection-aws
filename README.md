@@ -2,7 +2,7 @@
 
 
 - [🔍 Overview](#-overview)
-    * [Project Link](#project-link)
+    * [Project Link](#-project-link)
     * [Demo Video](#demo-video)
 - [💡 What It Does](#-what-it-does)
 - [🏗️ Architecture](#-architecture)
