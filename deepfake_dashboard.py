@@ -95,7 +95,6 @@ else:
 
 
 # -- DynamoDB CSV Downloader
-
 def load_dynamodb_data():
     response = table.scan()
     items = response.get('Items', [])
