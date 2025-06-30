@@ -1,3 +1,23 @@
+## 📚 Contents
+
+- [Overview](#overview)
+- [What It Does](#What It Does)
+- [Architecture](#architecture)
+- [How It Works](#how-it-works)
+- [Demo](#demo)
+- [Tech Stack](#tech-stack)
+- [Deployment](#deployment)
+- [Setup Instructions](#setup-instructions)
+- [Using the Streamlit Dashboard](#using-the-streamlit-dashboard)
+- [AWS Lambda Function](#aws-lambda-function)
+- [API Gateway Endpoint](#api-gateway-endpoint)
+- [DynamoDB Schema](#dynamodb-schema)
+- [S3 Folder Structure](#s3-folder-structure)
+- [Security Notes](#security-notes)
+- [Limitations and Future Work](#limitations-and-future-work)
+- [License](#license)
+
+
 🚀 **Overview**
 -----------
 
