@@ -18,12 +18,12 @@
 
 
 
-🚀 **Overview**
+🔍 **Overview**
 -----------
 
 This serverless web application helps researchers and developers detect deepfake images and collect annotated data for training future detection models. The system leverages the power of **AWS Lambda**, **Amazon SageMaker**, **Hugging Face models**, **S3**, and **DynamoDB**, with an intuitive **Streamlit** dashboard interface.
 
-## ✅ **What It Does**
+## 💡 **What It Does**
 
 *   Accepts a publicly accessible image URL through a web UI.
     
@@ -48,7 +48,7 @@ This serverless web application helps researchers and developers detect deepfake
     *   Delete individual files from S3 for data curation.
  
 
-## 🧩 **Architecture**
+## 🏗️ **Architecture**
 
  
                                                       [User Browser]
@@ -107,7 +107,7 @@ This serverless web application helps researchers and developers detect deepfake
 
   
 
-## 💻 Technologies Used
+## 🛠️ Technologies Used
 
 | Component        | Service or Tool                                |
 |------------------|------------------------------------------------|
@@ -123,7 +123,7 @@ This serverless web application helps researchers and developers detect deepfake
 
 
 
-## 📂 Lambda Function
+## 🧬 Lambda Function
 
 The Lambda function performs the core processing:
 
@@ -257,9 +257,9 @@ The following AWS IAM permissions are required:
   - Must have local AWS credentials via `aws configure` or instance role
 
 
-## 📦 **Project Structure**
+## 📁 **Project Structure**
 
-├── lambda\_function.py # AWS Lambda source
+├── lambda\_function.py # AWS Lambda source 
 
 ├── streamlit\_dashboard.py # Streamlit app for researchers
 
@@ -289,7 +289,7 @@ The following AWS IAM permissions are required:
 }
 ```
 
-## ✅ **How This Solves a Real-World Problem**
+## 🌍 **How This Solves a Real-World Problem**
 
 With the rise of misinformation and generative AI, journalists, platforms, and researchers need scalable tools to detect synthetic content and build better defenses.
 
@@ -302,7 +302,7 @@ This application:
 *   Scales instantly with **no need for provisioning infrastructure**.
     
 
-## 🔗 **Submission Requirements**
+## 📦 **Submission Requirements**
 
 *   **Lambda Core**: Image detection and classification runs entirely inside a Lambda function.
     
@@ -323,7 +323,7 @@ This application:
 *   **Frontend**: Streamlit app for interacting with the system
 
 
-## 📎 **How to Run Locally**
+## 💻 **How to Run Locally**
 ```
 pip install -r requirements.txt
 streamlit run deepfake_dashboard.py
@@ -336,7 +336,7 @@ aws configure
 ```
 
 
-## 🧠 **Future Improvements**
+## 🚀 **Future Improvements**
 1. Add support for uploading local files
 2. Integrate with AWS Bedrock for multi-modal analysis
 3. Add re-verification flow for flagged samples
