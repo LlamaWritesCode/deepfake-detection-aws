@@ -23,9 +23,9 @@ s3 = boto3.client('s3',
 table = dynamodb.Table('DeepfakeDetections')
 S3_BUCKET = 'deepfake-uploads'
 
-st.set_page_config(page_title="🧠 Deepfake Detection Research Dashboard", layout="wide")
+st.set_page_config(page_title="🧠 Deepfake Detection Dashboard", layout="wide")
 
-st.title("🧠 Deepfake Detection Research Dashboard")
+st.title("🧠 Deepfake Detection Dashboard")
 st.markdown("Upload an image URL, view results, and download training data from DynamoDB.")
 
 # -- Upload section
