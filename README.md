@@ -23,6 +23,8 @@
 
 This serverless web application helps researchers and developers detect deepfake images and collect annotated data for training future detection models. The system leverages the power of **AWS Lambda**, **Amazon SageMaker**, **Hugging Face models**, **S3**, and **DynamoDB**, with an intuitive **Streamlit** dashboard interface.
 
+Try it out: [AWS Deepfake Detector](https://deepfake-detection-aws-snxamqcshc9utzlvqyr2ff.streamlit.app/)
+
 ## 💡 **What It Does**
 
 *   Accepts a publicly accessible image URL through a web UI.
